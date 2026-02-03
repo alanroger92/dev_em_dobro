@@ -1,0 +1,11 @@
+p {
+  margin: 40px;
+  padding: 20px;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #b6b6b6;
+}
+
+.destaque {
+  background-color: #ffc0cb;
+}

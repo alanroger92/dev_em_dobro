@@ -1,0 +1,26 @@
+html {
+  background-color: lightslategrey;
+  font-size: 1.5em;
+  color: white;
+}
+
+body {
+  background-color: darkslategray;
+  width: 50%;
+}
+
+.pai {
+  background-color: blue;
+  width: 50%;
+}
+
+.filha {
+  background-color: red;
+  width: 50%;
+}
+
+.pixel{
+    background-color: yellow;
+    width: 262px;
+    height: 100px;
+}
