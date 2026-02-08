@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: rgb(197, 197, 197);
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    margin: 100px auto;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+#nome,#sobrenome {
+    width: 49%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cel_ou_email, #senha {
+    width: 99%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#senha {
+    margin-bottom: 10px;
+}
+
+#data {
+    font-size: 12px;
+}
+
+select {
+    width: 32%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label[for="genero"] {
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+} 
+
+ {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: blue;
+}
+
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
