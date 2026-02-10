@@ -1,0 +1,109 @@
+@font-face {
+  font-family: butterpop;
+  src: url("./butterpop/Butterpop.otf"), url("./butterpop/Butterpop.ttf");
+}
+
+#body {
+  background-color: #808080;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  width: 500px;
+  margin: auto;
+}
+
+.body {
+  background-color: #0000ff;
+}
+
+body {
+  background-color: #ff0000;
+}
+
+h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  color: white;
+  font-family: butterpop, sans-serif, monospace, "Roboto Mono";
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  padding: 30px;
+}
+
+p.estilo-texto {
+  background-color: rgba(255, 0, 0, 0.5);
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+a {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+
+a:active {
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.itens-vermelho {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+  border: 1px solid white;
+  text-align: center;
+  width: 100px;
+  margin: 10px auto;
+}
+
+.itens-azul {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+  border: 1px solid white;
+  text-align: center;
+  width: 100px;
+  margin: 10px auto;
+}
+
+.bg {
+  background-color: green;
+  background-image: url(../Basico/CSS3_Básico/AULA1/image/curriculo.png);
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.bg-image{
+    background-size: cover;
+}

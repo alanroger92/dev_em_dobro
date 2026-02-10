@@ -55,13 +55,6 @@ label[for="genero"] {
     font-size: 12px;
 } 
 
- {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-    color: blue;
-}
-
 input[type="submit"] {
     width: 50%;
     padding: 10px;
