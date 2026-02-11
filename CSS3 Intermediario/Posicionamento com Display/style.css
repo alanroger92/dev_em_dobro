@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 24px;
+}
+
+ul {
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+
+h1,
+p {
+  margin-bottom: 20px;
+}
+
+.em-bloco li {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  margin: 5px 20px;
+  display: block;
+  float: left;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  /* display: block; */
+}
+
+.em-linha li {
+  background-color: aqua;
+  margin: 5px 20px;
+  width: 100px;
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.em-linha-e-bloco li {
+  background-color: aqua;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.em-oculto {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
